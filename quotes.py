@@ -32,6 +32,8 @@ with open(filename, 'w', newline='') as f:
     for quote in quotes:
         w.writerow(quote)
 
+print("end of Quotes scraping")
+
 
 
 
